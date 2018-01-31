@@ -1,0 +1,62 @@
+#problem
+  width: 100%
+  background-repeat: repeat
+  .container
+    max-width: 1100px
+    margin: auto
+    padding: 0px
+    text-align: center
+    color: black
+    font-size: 16px
+    font-weight: 300
+    padding: 20px 5px
+    +tablet
+      padding: 50px 20px
+      font-size: 20px
+    +desktop
+      padding: 100px 20px
+      font-size: 26px
+    h2
+      font-weight: 500
+      font-size: 20px
+      +tablet
+        font-size: 30px
+      +desktop
+        font-size: 40px
+    .problems
+      width: 100%
+      max-width: 1000px
+      margin: 50px auto 50px
+      display: grid
+      grid-template-columns: 1fr
+      grid-gap: 35px
+      +tablet
+        grid-template-columns: 1fr 3fr
+      img
+        max-width: 250px
+        width: 100%
+        margin: auto
+        +tablet
+          text-align: left
+      p
+        text-align: center
+        font-size: 16px
+        padding: 10px
+        width: 100%
+        max-width: 250px
+        margin: auto
+        +tablet
+          max-width: 100%
+          text-align: left
+          padding: 0px
+          margin-top: 0px
+          font-size: 20px
+        +desktop
+          margin-top: 20%
+          font-size: 24px
+        .boldProblem
+          font-weight: 600
+      .bottom
+        margin-top: 0px
+        +desktop
+          margin-top: 5%

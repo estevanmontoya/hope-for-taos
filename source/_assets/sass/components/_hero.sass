@@ -1,0 +1,55 @@
+#hero
+  width: 100%
+  background-image: linear-gradient(to right bottom, rgba(36, 215, 131, .8), rgba(183, 216, 255, .8)), url('../img/churchWebsitesHero.jpg')
+  background-position: center center
+  background-repeat: no-repeat
+  background-size: cover
+  .container
+    max-width: 1000px
+    margin: auto
+    padding: 0px
+    text-align: center
+    color: white
+    padding: 100px 5px
+    +tablet
+      padding: 125px 20px
+    +desktop
+      padding: 150px 20px
+  h1
+    font-weight: 300
+    font-size: 30px
+    +tablet
+      font-size: 40px
+    +desktop
+      font-size: 50px
+    .bold
+      font-weight: 800
+  h2
+    font-weight: 300
+    font-size: 16px
+    margin-bottom: 20px
+    +tablet
+      margin-bottom: 40px
+      font-size: 20px
+    +desktop
+      font-size: 30px
+  .learnMore
+    background-color: #FFC203
+    border-radius: 30px
+    padding: 6px 16px
+    color: white
+    text-transform: uppercase
+    font-weight: 600
+    font-size: 10px
+    letter-spacing: 2px
+    text-decoration: none
+    margin: 60px 0px
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15)
+    transition: .5s
+    &:hover
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.45)
+    +tablet
+      padding: 10px 30px
+      font-weight: 800
+      letter-spacing: 6px
+      font-size: 14px
